@@ -1,0 +1,7 @@
+.pytest_cache
+
+lib/__pycache__/
+
+data/
+
+Pipfile.lock

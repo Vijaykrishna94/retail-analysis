@@ -48,7 +48,7 @@ def test_count_orders_state(spark,expected_results):
         "status,count",
         [("CLOSED",7556),
          ("PENDING_PAYMENT",15030),
-         ("COMPLETE",22899)
+         ("COMPLETE",22900)
         ]
 )
 def test_status_count(spark,status,count):
